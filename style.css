@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+    height: 100vh;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.tip-calculator-div{
+
+    margin: 20px;
+    height:50%;
+    width: 40%;
+    background: rgba(69, 176, 147,0.4);
+    border-radius: 20px;
+    border: 2px solid rgb(99, 200, 175);
+}
+.fw-bolder{
+    color: azure;
+    margin: 20px;
+    padding-left: 30px;
+}
+.total-bill, .tip-percentage{
+    padding-left: 30px;
+}
+.input-group-text{
+    font-size: xx-large;
+    padding: 4px;
+    font-weight: bolder;
+    color: White;
+}
+input{
+  border: 1px solid rgb(147, 190, 179);;
+    border-radius: 8px; 
+    width:50%;
+    background-color: rgb(147, 190, 179);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(83, 82, 82, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.number-of-persons{
+
+    margin-left: 20px;
+}
+
+.result-div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin: 0;
+   
+}
+.persons-input {
+   font-size:x-large;
+   font-weight:710 ;
+    color: azure;
+    margin: 20px;
+    width: 10%;
+    background-color:rgba(147, 190, 179,0.05); 
+    border: none;
+   
+    
+}
+.total-bill-tipinc{
+    color: azure;
+    font-size:150%;
+    font-weight: 800;
+    padding-right: 40px;
+}
+.add-button,.minus-button{
+    border-radius: 51%;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(83, 82, 82, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.final-label{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width:200px)and (max-width:1000px) {
+    .tip-calculator-div{
+        height: 50%;
+        width: 100vw;
+    }
+}
